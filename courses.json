@@ -1,0 +1,8 @@
+[ {
+  "id" : 1,
+  "name" : "Java Fundamentals",
+  "description" : "Learn Java programming fundamentals",
+  "target_date" : "2026-12-31",
+  "status" : "In Progress",
+  "created_at" : null
+} ]
