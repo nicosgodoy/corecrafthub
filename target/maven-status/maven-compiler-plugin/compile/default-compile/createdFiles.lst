@@ -4,6 +4,7 @@ com\codecrafthub\controller\GlobalExceptionHandler.class
 com\codecrafthub\service\CourseService.class
 com\codecrafthub\service\CourseService$FileStorageException.class
 com\codecrafthub\CodeCraftHubApplication.class
+com\codecrafthub\config\WebConfig.class
 com\codecrafthub\controller\CourseController.class
 com\codecrafthub\service\CourseService$CourseNotFoundException.class
 com\codecrafthub\service\CourseService$InvalidStatusException.class

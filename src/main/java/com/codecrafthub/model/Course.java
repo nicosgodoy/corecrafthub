@@ -44,8 +44,13 @@ public class Course {
 
     /**
      * Se genera automáticamente al crear el curso.
+     *
+     * No debe ser READ_ONLY: el servicio necesita poder deserializarlo
+     * al leer courses.json; de lo contrario la fecha se pierde en cada
+     * reescritura del archivo. El servicio ignora cualquier valor enviado
+     * por el cliente y siempre asigna Instant.now() al crear.
      */
-    @JsonProperty(value = "created_at", access = JsonProperty.Access.READ_ONLY)
+    @JsonProperty("created_at")
     private Instant createdAt;
 
     public Course() {

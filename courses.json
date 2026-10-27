@@ -1,8 +1,8 @@
 [ {
   "id" : 1,
   "name" : "Java Fundamentals",
-  "description" : "Learn Java programming fundamentals",
-  "target_date" : "2026-12-31",
-  "status" : "In Progress",
-  "created_at" : null
+  "description" : "curso inicial de java",
+  "target_date" : "2026-10-11",
+  "status" : "Not Started",
+  "created_at" : "2026-10-27T01:43:26.112112300Z"
 } ]
